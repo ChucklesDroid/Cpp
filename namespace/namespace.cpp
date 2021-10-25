@@ -1,5 +1,6 @@
 // 	Pseudo Code to demonstrate namespace behaviour
 // 	Source :- https://docs.microsoft.com/en-us/cpp/cpp/namespaces-cpp?view=msvc-160
+// 	Source :- https://www.differencebetween.com/difference-between-header-file-and-vs-library-file/
 /* 	Namespace 	*/
 namespace ContosoData
 {
