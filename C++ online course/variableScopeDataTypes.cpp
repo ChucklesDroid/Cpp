@@ -8,8 +8,10 @@ void sum( int glo )
 }
 int main( int argc , char *argv[] )
 {
+    bool boolValue = true ;
     int glo = 78 ;
     glo = 23 ;
+    cout<<"Value of boolean variable: "<<boolValue<<endl ;
 /* Local variable passed by argument */
     sum( glo ) ;
 /* Local Variable printed */
