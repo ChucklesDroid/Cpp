@@ -6,7 +6,7 @@ using namespace std::literals::chrono_literals ;
 int main( int argc, char *argv[] )
 {
     typedef std::chrono::duration<long long, std::ratio<2700>> hour ;
-    auto schoolHour = hour(1) ;
+    auto schoolHour = hour{1} ;
     auto shortBreak = 300s;
     auto longBreak = 0.25h;
     auto schoolWay = 25min;
