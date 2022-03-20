@@ -18,5 +18,8 @@ int main(){<br>
 *String input operator reads and discards any leading whitespace character and reads untill next whitespace character. Getline on the other hand reads
 leading whitespace characters but reads till newline character only, if it encounters newline character initially then it will store an empty string.*
 
-
+**Exercise 3.9** What does the following program do ? Is it valid ? If not, why not ?<br>
+string s ;<br>
+cout << s[0] << endl ;<br>
+*It's not a valid program since string s is an empty string and accessing it using subscripts is not defined.*<br>
 
